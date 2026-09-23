@@ -1,54 +1,54 @@
-# Testes API - EBAC
-### Exercício para os alunos de Qualidade de software da EBAC 
+# Testes de API - EBAC
 
-## Clonando e executando em sua máquina
+Repositório para prática de automação de testes de API utilizando Cypress.
 
-### Pré-requisito:
+## Objetivo
 
--Node.js - Você encontra em: https://nodejs.org/en/
+Validar endpoints de uma API de e-commerce, cobrindo cenários de sucesso, falha e regras de negócio.
 
--Visual Studio Code ou qualquer editor de texto - você encontra em: https://code.visualstudio.com/download
+## Tecnologias
 
--Git: você encontra em: https://git-scm.com/downloads
+- Cypress
+- JavaScript
+- Node.js
 
+## Pré-requisitos
 
-Via terminal, rode os seguintes comandos:
-```  
-git clone https://github.com/EBAC-QE/teste-api-ebac.git
+- Node.js
+- npm
+- Git
+
+## Instalação
+
+```bash
+npm install
 ```
-```
-cd teste-api-ebac
-```
 
-#### Para instalar as dependencias:
-```
-npm install 
-```
+## Execução
 
-#### Para subir o servidor:
-```
+### Subir a API de apoio
+
+```bash
 npm start
 ```
 
-#### Para executar em moodo Headlesss via console:
-```
+### Executar os testes em modo headless
+
+```bash
 npx cypress run
 ```
 
-#### Para executar via Dashboard:
+### Executar no modo interativo
+
+```bash
+npx cypress open
 ```
-npx cypress open 
-```
-Após abrir o dashboard, prossiga com os passos sugerido pelo Cypress.
 
+## Estrutura do projeto
 
-### Bibliotecas de apoio:
--Cypress: Framework de automação: https://cypress.io/
-
-
-### Bom exercício ;) 
-Fábio & José Ernesto
-Qualidade de software
+- `cypress/` — testes automatizados;
+- `cypress.config.js` — configuração do Cypress;
+- `package.json` — scripts e dependências do projeto.
 
 
 
